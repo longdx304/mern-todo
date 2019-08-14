@@ -4,7 +4,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const todoRoutes = express.Router();
-const PORT = 4000;
+const portNo = process.env.PORT || 4000;
+const databaseUrl = process.env.DATABASEURL || "mongodb://127.0.0.1:27017/todos";
 
 let Todo = require("./todo.model");
 
@@ -59,13 +60,14 @@ todoRoutes.route("/update/:id").post((req, res)=>{
     });
 });
 
-mongoose.connect("mongodb://127.0.0.1:27017/todos", {useNewUrlParser: true});
+mongoose.connect(databaseUrl, {useNewUrlParser: true});
+//mongoose.connect("mongodb://hlong304:Zxcvdef1@ds263127.mlab.com:63127/mern-todos", {useNewUrlParser: true});
 const connection = mongoose.connection;
 
 connection.once("open", ()=>{
     console.log("MongoDB database connetion established succesfully");
 })
 
-app.listen(PORT, ()=>{
-    console.log("Server is running on Port: " + PORT);
+app.listen(portNo, ()=>{
+    console.log("Server is running on Port: " + portNo);
 });
