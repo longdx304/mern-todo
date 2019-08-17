@@ -5,7 +5,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const todoRoutes = express.Router();
 const portNo = process.env.PORT || 4000;
-const databaseUrl = process.env.DATABASEURL || "mongodb://127.0.0.1:27017/todos";
+const databaseUrl = process.env.DATABASEURL || "mongodb://hlong304:Zxcvdef1@ds263127.mlab.com:63127/mern-todos";
 
 let Todo = require("./todo.model");
 
