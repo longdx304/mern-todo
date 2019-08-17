@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require('path');
 const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
@@ -9,10 +10,15 @@ const databaseUrl = process.env.DATABASEURL || "mongodb://hlong304:Zxcvdef1@ds26
 
 let Todo = require("./todo.model");
 
+app.use(express.static(path.join(__dirname, 'build')));
 app.use(cors());
 app.use(bodyParser.json());
 
 app.use("/todos", todoRoutes);
+
+app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 
 todoRoutes.route("/").get((req, res)=>{
     Todo.find((err, todos)=>{
