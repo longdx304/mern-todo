@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/mern-todo/precache-manifest.b1ec567ebd23dd20bfc4bf1dd96c52aa.js"
+=======
+  "/precache-manifest.0c7661615db50b74d014ee47c71bd535.js"
+>>>>>>> parent of 4a1eb8a... update axios to use relative path
 );
 
 self.addEventListener('message', (event) => {
