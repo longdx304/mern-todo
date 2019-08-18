@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5231334a.chunk.css",
-    "main.js": "/static/js/main.89a71378.chunk.js",
-    "main.js.map": "/static/js/main.89a71378.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.e4722448.js",
-    "runtime~main.js.map": "/static/js/runtime~main.e4722448.js.map",
-    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
-    "static/js/2.c0cf2c9c.chunk.js": "/static/js/2.c0cf2c9c.chunk.js",
-    "static/js/2.c0cf2c9c.chunk.js.map": "/static/js/2.c0cf2c9c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.15ea28509e7de30935b392da293c95d6.js": "/precache-manifest.15ea28509e7de30935b392da293c95d6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.5231334a.chunk.css.map": "/static/css/main.5231334a.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/mern-todo/static/css/main.5231334a.chunk.css",
+    "main.js": "/mern-todo/static/js/main.60b0d216.chunk.js",
+    "main.js.map": "/mern-todo/static/js/main.60b0d216.chunk.js.map",
+    "runtime~main.js": "/mern-todo/static/js/runtime~main.2efcbe29.js",
+    "runtime~main.js.map": "/mern-todo/static/js/runtime~main.2efcbe29.js.map",
+    "static/css/2.266e55a5.chunk.css": "/mern-todo/static/css/2.266e55a5.chunk.css",
+    "static/js/2.c0cf2c9c.chunk.js": "/mern-todo/static/js/2.c0cf2c9c.chunk.js",
+    "static/js/2.c0cf2c9c.chunk.js.map": "/mern-todo/static/js/2.c0cf2c9c.chunk.js.map",
+    "index.html": "/mern-todo/index.html",
+    "precache-manifest.f57beb5805c099c8e990c3db937ed60b.js": "/mern-todo/precache-manifest.f57beb5805c099c8e990c3db937ed60b.js",
+    "service-worker.js": "/mern-todo/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/mern-todo/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.5231334a.chunk.css.map": "/mern-todo/static/css/main.5231334a.chunk.css.map",
+    "static/media/logo.svg": "/mern-todo/static/media/logo.5d5d9eef.svg"
   }
 }
