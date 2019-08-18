@@ -6,7 +6,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const todoRoutes = express.Router();
 const portNo = process.env.PORT || 4000;
-const databaseUrl = process.env.DATABASEURL || "mongodb://hlong304:Zxcvdef1@ds263127.mlab.com:63127/mern-todos";
+const databaseUrl = process.env.DATABASEURL || "mongodb+srv://mern-todo:dt8aEbQ2LzMFDGfs@mern-todo-bjsjz.mongodb.net/test?retryWrites=true&w=majority";
 
 let Todo = require("./todo.model");
 
@@ -71,7 +71,7 @@ mongoose.connect(databaseUrl, {useNewUrlParser: true});
 const connection = mongoose.connection;
 
 connection.once("open", ()=>{
-    console.log("MongoDB database connetion established succesfully");
+    console.log("MongoDB database connetion established succesfully ");
 })
 
 app.listen(portNo, ()=>{
