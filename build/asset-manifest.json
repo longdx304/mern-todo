@@ -1,21 +1,5 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/mern-todo/static/css/main.5231334a.chunk.css",
-    "main.js": "/mern-todo/static/js/main.5cf06d50.chunk.js",
-    "main.js.map": "/mern-todo/static/js/main.5cf06d50.chunk.js.map",
-    "runtime~main.js": "/mern-todo/static/js/runtime~main.2efcbe29.js",
-    "runtime~main.js.map": "/mern-todo/static/js/runtime~main.2efcbe29.js.map",
-    "static/css/2.266e55a5.chunk.css": "/mern-todo/static/css/2.266e55a5.chunk.css",
-    "static/js/2.c0cf2c9c.chunk.js": "/mern-todo/static/js/2.c0cf2c9c.chunk.js",
-    "static/js/2.c0cf2c9c.chunk.js.map": "/mern-todo/static/js/2.c0cf2c9c.chunk.js.map",
-    "index.html": "/mern-todo/index.html",
-    "precache-manifest.b1ec567ebd23dd20bfc4bf1dd96c52aa.js": "/mern-todo/precache-manifest.b1ec567ebd23dd20bfc4bf1dd96c52aa.js",
-    "service-worker.js": "/mern-todo/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/mern-todo/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.5231334a.chunk.css.map": "/mern-todo/static/css/main.5231334a.chunk.css.map",
-    "static/media/logo.svg": "/mern-todo/static/media/logo.5d5d9eef.svg"
-=======
     "main.css": "/static/css/main.5231334a.chunk.css",
     "main.js": "/static/js/main.19a46fea.chunk.js",
     "main.js.map": "/static/js/main.19a46fea.chunk.js.map",
@@ -25,11 +9,10 @@
     "static/js/2.c0cf2c9c.chunk.js": "/static/js/2.c0cf2c9c.chunk.js",
     "static/js/2.c0cf2c9c.chunk.js.map": "/static/js/2.c0cf2c9c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0c7661615db50b74d014ee47c71bd535.js": "/precache-manifest.0c7661615db50b74d014ee47c71bd535.js",
+    "precache-manifest.042a953900af4da81dc03e08b1cc5fc3.js": "/precache-manifest.042a953900af4da81dc03e08b1cc5fc3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
     "static/css/main.5231334a.chunk.css.map": "/static/css/main.5231334a.chunk.css.map",
     "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
->>>>>>> parent of 4a1eb8a... update axios to use relative path
   }
 }
